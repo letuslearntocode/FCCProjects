@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<head>
+  <title> Top Title </title>
+  <body>
+    <h1 id="title"> Survey Form </h1>
+    <p id="description"> Tell us how we could improve the Let's Learn to Code (for free) Series </p>
+    <form id="survey-form">
+      
+    <label for="name" id="name-label"> Name:
+    <input id="name" type="text" placeholder="*Enter your name" required>
+    </label>
+      
+      <br> <br>
+      
+    <label for="email" id="email-label"> Email:
+    <input id="email" type="email" placeholder="*Enter your email" required> 
+      </label>
+    <br> <br>
+      How do I change the size of this text field?
+      <br>
+      <label for="number" id="number-label">RandomNumber:
+    <input id="number" type="number" min="0" max="9" placeholder="*Enter a random number between 0-9" required> 
+      </label>
+      <br>
+      <label for="dropdown" id="dropdown label"> Dropdown:
+        <select id="dropdown">
+          <option selected disabled>--Select Option--</option>
+          <option> opTIon1 </option>
+          <option> opTIon2 </option>
+          <br>
+        </select>
+          </label>
+        <br>
+      <p>Radios</p>
+      <input id="firstradio" type="radio" name="radio" value="firstradio">
+      <label for="firstradio">firstradio </label>
+      <input id="secondradio" type="radio" name="radio" value="secondradio">
+      <label for="secondradio">secondradio </label>
+          <br>
+            <label for="firstcheckbox" id="checkbox"> Checkboxes:
+      <input id="firstcheckbox" type="checkbox" name="checkbox" value="FirstCheckBox"> firstrcheckbox
+             </label>
+        
+      <label for="seconcheckbox" id="checkbox">
+      <input id="secondcheckbox" type="checkbox" name="checkbox" value="SecondCheckBox"> secondcheckbox
+             </label>
+        <br>
+        <label for="textarea">Text area:
+          <textarea id="textarea" name="textarea"> enter random text </textarea>
+          </label>
+      <br>
+        <button type="submit" id="submit" type="button" name="submit">Submit!!!</button>
+    </form>
+    </body>
+</html>
