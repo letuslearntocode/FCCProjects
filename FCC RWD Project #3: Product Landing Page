@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <style>
+    #nav-bar{
+      display:flex;
+      justify-content:center;
+    }
+     @media (max-height:800px) {
+   p{
+   font-size:12px;
+   }
+ }
+
+  </style>
+  
+<body>
+  <header id="header">
+    <div id="navnav">
+    <nav id="nav-bar">
+      <button id="homebutton" class="nav-link" a href="#home">Home</button>
+      <button id="featuresbutton" class="nav-link" a href="#features">Features</button>
+      <button id="contactbutton" class="nav-link" a href="#contact">Contact</button>
+    </nav>
+    </div>
+
+    <img id="header-img" src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/REAL_by_FAKE_logo.png/800px-REAL_by_FAKE_logo.png" alt="Real by fake logo" >
+    
+    
+      <h1>Welcome</h1>
+    <section id="home">
+    <h3>Home</h3>
+<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/7V0lQL1WWNQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies mauris ut libero congue volutpat. Morbi elementum blandit lectus, non tincidunt eros condimentum et. Vestibulum velit felis, pretium id scelerisque et, lobortis at nisi. Quisque commodo, eros vitae euismod dapibus, neque massa pharetra quam, sed lacinia lectus sapien feugiat leo. Sed viverra elementum nunc, id venenatis massa tincidunt vitae. Phasellus id lectus eu ipsum sollicitudin accumsan. Maecenas vitae massa non ex elementum suscipit. Morbi porta, sapien eu vulputate ultrices, ligula justo ultricies tellus, in dictum metus tortor id dolor. Mauris nec eros vel nibh convallis dictum. Phasellus dignissim tortor at accumsan sodales. Integer eget elementum mauris. Donec aliquet sapien cursus sapien mollis ultricies. Mauris porta orci ut dui porttitor lacinia.</p>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" type="email" placeholder="Subscribe to newsletter" name="email"></input>
+        <input id="submit" type="submit" name="submit" value="Submit!!!"></input>
+
+      </form>
+  </section>
+  <section id="features">
+      <h3>Features</h3>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies mauris ut libero congue volutpat. Morbi elementum blandit lectus, non tincidunt eros condimentum et. Vestibulum velit felis, pretium id scelerisque et, lobortis at nisi. Quisque commodo, eros vitae euismod dapibus, neque massa pharetra quam, sed lacinia lectus sapien feugiat leo. Sed viverra elementum nunc, id venenatis massa tincidunt vitae. Phasellus id lectus eu ipsum sollicitudin accumsan. Maecenas vitae massa non ex elementum suscipit. Morbi porta, sapien eu vulputate ultrices, ligula justo ultricies tellus, in dictum metus tortor id dolor. Mauris nec eros vel nibh convallis dictum. Phasellus dignissim tortor at accumsan sodales. Integer eget elementum mauris. Donec aliquet sapien cursus sapien mollis ultricies. Mauris porta orci ut dui porttitor lacinia. </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies mauris ut libero congue volutpat. Morbi elementum blandit lectus, non tincidunt eros condimentum et. Vestibulum velit felis, pretium id scelerisque et, lobortis at nisi. Quisque commodo, eros vitae euismod dapibus, neque massa pharetra quam, sed lacinia lectus sapien feugiat leo. Sed viverra elementum nunc, id venenatis massa tincidunt vitae. Phasellus id lectus eu ipsum sollicitudin accumsan. Maecenas vitae massa non ex elementum suscipit. Morbi porta, sapien eu vulputate ultrices, ligula justo ultricies tellus, in dictum metus tortor id dolor. Mauris nec eros vel nibh convallis dictum. Phasellus dignissim tortor at accumsan sodales. Integer eget elementum mauris. Donec aliquet sapien cursus sapien mollis ultricies. Mauris porta orci ut dui porttitor lacinia.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies mauris ut libero congue volutpat. Morbi elementum blandit lectus, non tincidunt eros condimentum et. Vestibulum velit felis, pretium id scelerisque et, lobortis at nisi. Quisque commodo, eros vitae euismod dapibus, neque massa pharetra quam, sed lacinia lectus sapien feugiat leo. Sed viverra elementum nunc, id venenatis massa tincidunt vitae. Phasellus id lectus eu ipsum sollicitudin accumsan. Maecenas vitae massa non ex elementum suscipit. Morbi porta, sapien eu vulputate ultrices, ligula justo ultricies tellus, in dictum metus tortor id dolor. Mauris nec eros vel nibh convallis dictum. Phasellus dignissim tortor at accumsan sodales. Integer eget elementum mauris. Donec aliquet sapien cursus sapien mollis ultricies. Mauris porta orci ut dui porttitor lacinia.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies mauris ut libero congue volutpat. Morbi elementum blandit lectus, non tincidunt eros condimentum et. Vestibulum velit felis, pretium id scelerisque et, lobortis at nisi. Quisque commodo, eros vitae euismod dapibus, neque massa pharetra quam, sed lacinia lectus sapien feugiat leo. Sed viverra elementum nunc, id venenatis massa tincidunt vitae. Phasellus id lectus eu ipsum sollicitudin accumsan. Maecenas vitae massa non ex elementum suscipit. Morbi porta, sapien eu vulputate ultrices, ligula justo ultricies tellus, in dictum metus tortor id dolor. Mauris nec eros vel nibh convallis dictum. Phasellus dignissim tortor at accumsan sodales. Integer eget elementum mauris. Donec aliquet sapien cursus sapien mollis ultricies. Mauris porta orci ut dui porttitor lacinia.</p>
+  </section>
+  <section id="contact">
+      <h3>Contact</h3>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies mauris ut libero congue volutpat. Morbi elementum blandit lectus, non tincidunt eros condimentum et. Vestibulum velit felis, pretium id scelerisque et, lobortis at nisi. Quisque commodo, eros vitae euismod dapibus, neque massa pharetra quam, sed lacinia lectus sapien feugiat leo. Sed viverra elementum nunc, id venenatis massa tincidunt vitae. Phasellus id lectus eu ipsum sollicitudin accumsan. Maecenas vitae massa non ex elementum suscipit. Morbi porta, sapien eu vulputate ultrices, ligula justo ultricies tellus, in dictum metus tortor id dolor. Mauris nec eros vel nibh convallis dictum. Phasellus dignissim tortor at accumsan sodales. Integer eget elementum mauris. Donec aliquet sapien cursus sapien mollis ultricies. Mauris porta orci ut dui porttitor lacinia. </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies mauris ut libero congue volutpat. Morbi elementum blandit lectus, non tincidunt eros condimentum et. Vestibulum velit felis, pretium id scelerisque et, lobortis at nisi. Quisque commodo, eros vitae euismod dapibus, neque massa pharetra quam, sed lacinia lectus sapien feugiat leo. Sed viverra elementum nunc, id venenatis massa tincidunt vitae. Phasellus id lectus eu ipsum sollicitudin accumsan. Maecenas vitae massa non ex elementum suscipit. Morbi porta, sapien eu vulputate ultrices, ligula justo ultricies tellus, in dictum metus tortor id dolor. Mauris nec eros vel nibh convallis dictum. Phasellus dignissim tortor at accumsan sodales. Integer eget elementum mauris. Donec aliquet sapien cursus sapien mollis ultricies. Mauris porta orci ut dui porttitor lacinia.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies mauris ut libero congue volutpat. Morbi elementum blandit lectus, non tincidunt eros condimentum et. Vestibulum velit felis, pretium id scelerisque et, lobortis at nisi. Quisque commodo, eros vitae euismod dapibus, neque massa pharetra quam, sed lacinia lectus sapien feugiat leo. Sed viverra elementum nunc, id venenatis massa tincidunt vitae. Phasellus id lectus eu ipsum sollicitudin accumsan. Maecenas vitae massa non ex elementum suscipit. Morbi porta, sapien eu vulputate ultrices, ligula justo ultricies tellus, in dictum metus tortor id dolor. Mauris nec eros vel nibh convallis dictum. Phasellus dignissim tortor at accumsan sodales. Integer eget elementum mauris. Donec aliquet sapien cursus sapien mollis ultricies. Mauris porta orci ut dui porttitor lacinia.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies mauris ut libero congue volutpat. Morbi elementum blandit lectus, non tincidunt eros condimentum et. Vestibulum velit felis, pretium id scelerisque et, lobortis at nisi. Quisque commodo, eros vitae euismod dapibus, neque massa pharetra quam, sed lacinia lectus sapien feugiat leo. Sed viverra elementum nunc, id venenatis massa tincidunt vitae. Phasellus id lectus eu ipsum sollicitudin accumsan. Maecenas vitae massa non ex elementum suscipit. Morbi porta, sapien eu vulputate ultrices, ligula justo ultricies tellus, in dictum metus tortor id dolor. Mauris nec eros vel nibh convallis dictum. Phasellus dignissim tortor at accumsan sodales. Integer eget elementum mauris. Donec aliquet sapien cursus sapien mollis ultricies. Mauris porta orci ut dui porttitor lacinia.</p>
+  </section>
+    </body>
+  
+  
+</html>
